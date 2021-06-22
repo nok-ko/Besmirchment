@@ -16,6 +16,7 @@
     "EntityMixin",
     "EntityShapeContextMixin",
     "FleeEntityGoalMixin",
+    "LeonardEntityMixin",
     "LivingEntityMixin",
     "MobEntityMixin",
     "PlayerEntityMixin",

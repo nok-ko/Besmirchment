@@ -1,0 +1,14 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "bexment:item/demonic_deed"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "bexment:variant": 1
+      },
+      "model": "bexment:item/demonic_deed_signed"
+    }
+  ]
+}

@@ -1,6 +1,0 @@
-{
-  "parent": "bewitchment:block/coffin_closed",
-  "textures": {
-	"cushion": "besmirchment:block/elite_coffin_cushion"
-  }
-}

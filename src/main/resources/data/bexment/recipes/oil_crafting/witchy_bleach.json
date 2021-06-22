@@ -1,0 +1,23 @@
+{
+  "type": "bewitchment:oil_recipe",
+  "ingredients": [
+    {
+      "item": "bewitchment:aqua_cerate"
+    },
+    {
+      "item": "glass"
+    },
+    {
+      "item": "bewitchment:birch_bark"
+    }
+  ],
+  "result": {
+    "item": "bexment:witchy_dye"
+  },
+  "color": 16777215,
+  "frc:conditions": [
+    {
+      "bexment:bsm_config": "witchy_dye"
+    }
+  ]
+}

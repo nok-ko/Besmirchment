@@ -1,0 +1,42 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "me.nokko.bexment.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "AbstractBlockStateMixin",
+    "BewitchmentAPIMixin",
+    "BindFamiliarRitualFunctionMixin",
+    "BlockMixin",
+    "BottleOfBloodItemMixin",
+    "BWCropBlockMixin",
+    "BWDamageSourcesMixin",
+    "BWHostileEntityMixin",
+    "DemonEntityMixin",
+    "EntityMixin",
+    "EntityShapeContextMixin",
+    "FleeEntityGoalMixin",
+    "LeonardEntityMixin",
+    "LivingEntityMixin",
+    "MobEntityMixin",
+    "PlayerEntityMixin",
+    "TaglockCraftingRecipeMixin",
+    "TransformationAbilityPacketMixin",
+    "VillagerEntityMixin",
+    "VillagerHostilesSensorMixin"
+  ],
+  "client": [
+    "client.BackgroundRendererMixin",
+    "client.ClientPlayNetworkHandlerMixin",
+    "client.DemonEntityRendererMixin",
+    "client.HeldItemFeatureRendererMixin",
+    "client.InGameHudMixin",
+    "client.InGameOverlayRendererMixin",
+    "client.LivingEntityRendererMixin",
+    "client.PlayerEntityRendererMixin",
+    "client.WerewolfEntityRendererMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

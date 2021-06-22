@@ -1,0 +1,12 @@
+{
+  "map": [
+    {
+      "predicate": {
+        "materialPredicate": {
+          "texture": "bexment:textures/entity/broom/final_broom_tintable.png"
+        }
+      },
+      "material": "canvas:emissive_transform"
+    }
+  ]
+}

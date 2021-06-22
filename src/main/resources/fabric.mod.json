@@ -1,12 +1,13 @@
 {
   "schemaVersion": 1,
-  "id": "besmirchment",
+  "id": "bexment",
   "version": "${version}",
 
-  "name": "Besmirchment",
-  "description": "You should be ashamed",
+  "name": "BeXMent",
+  "description": "Here it comes…",
   "authors": [
-    "Aelpecyem"
+    "Aelpecyem",
+    "nokko"
   ],
   "contact": {
     "sources": "https://github.com/Aelpecyem/Besmirchment",
@@ -17,22 +18,22 @@
     "CyberCat5555"
   ],
   "license": "CC0-1.0",
-  "icon": "assets/besmirchment/icon.png",
+  "icon": "assets/bexment/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "de.aelpecyem.besmirchment.common.Besmirchment"
+      "me.nokko.bexment.common.Besmirchment"
     ],
     "client": [
-      "de.aelpecyem.besmirchment.client.BesmirchmentClient"
+      "me.nokko.bexment.client.BesmirchmentClient"
     ],
     "modmenu": [
-      "de.aelpecyem.besmirchment.client.compat.BSMModMenu"
+      "me.nokko.bexment.client.compat.BSMModMenu"
     ]
   },
   "mixins": [
-    "besmirchment.mixins.json"
+    "bexment.mixins.json"
   ],
 
   "custom": {

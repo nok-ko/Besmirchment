@@ -1,9 +1,8 @@
-# Besmirchment
-Besmirchment - the first [Bewitchment](https://github.com/MoriyaShiine/bewitchment) addon!
-Besmirchment is a satire addon -but we both know people are going to play it unironically, so it is highly configurable.
-
-Besmirchment's design is usually self-ironic, impractical or just "why not".
+# Bement
+Bement is my attempt to strip down Besmirchment, the first addon for Bewitchment, to its very essence. 
+It is intended to be an example mod, or, failing that, at least a “don't follow this example”-mod for 
+the whole Bewitchment Addon Thing.
 
 ## License
 
-Currently, Besmirchment is available under the CC0 license. Don't steal art tho.
+Bement is released under the CC0 License.

@@ -24,9 +24,19 @@ repositories {
 		url = "https://maven.jamieswhiteshirt.com/libs-release"
 	}
 	maven {
-		name = "pal"
-		url = "https://dl.bintray.com/ladysnake/libs"
+		name "player ability lib, impersonate, trinkets"
+		url "https://ladysnake.jfrog.io/artifactory/mods"
+		content {
+			includeGroup "io.github.ladysnake"
+			includeGroupByRegex 'io\\.github\\.onyxstudios.*'
+		}
 	}
+
+	maven {
+		name = "Nexus Repository Manager"
+		url = 'https://oss.sonatype.org/content/repositories/snapshots'
+	}
+
 	maven {
 		name = "somnus"
 		url = "https://maven.theillusivec4.top"
@@ -104,12 +114,12 @@ dependencies {
 	modImplementation "curse.maven:bewitchment-394915:${project.bewitchment_version}"
 	include(modImplementation("io.github.ytg1234:fabric-recipe-conditions:${project.conditional_recipes_version}"))
 
-
-	modImplementation ("grondag:canvas-mc116:1.0.+"){
-		exclude(group: "net.fabricmc.fabric-api")
-		exclude(group: "me.shedaniel.cloth")
-		exclude(group: "io.github.prospector")
-	}
+// This crashes my computer, yay
+//	modImplementation ("grondag:canvas-mc116:1.0.+"){
+//		exclude(group: "net.fabricmc.fabric-api")
+//		exclude(group: "me.shedaniel.cloth")
+//		exclude(group: "io.github.prospector")
+//	}
 }
 
 processResources {
